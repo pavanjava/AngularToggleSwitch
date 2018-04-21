@@ -11,7 +11,7 @@ Include the modeule as below into your application
 var myapp = angular.module('MyApp',['toggleSwitch']);
 ```
 to implement the logic in html please include as below 
-```Javascript
+```HTML
 <div ng-controller="TestBenchController">
     <ng-round-switch toggle-switch="toggleValue"></ng-round-switch>
     <ng-flat-switch toggle-switch="toggleValue"></ng-flat-switch>
