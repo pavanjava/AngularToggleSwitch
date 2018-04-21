@@ -2,8 +2,10 @@
 Toggle Switch as Angular 1.x Directive/Module
 
 Include the toggleSwitch module in your index.html as below
-<script src="modules/toggleSwitch.js" type="text/javascript"></script>
 
+```HTML
+<script src="modules/toggleSwitch.js" type="text/javascript"></script>
+```
 Include the modeule as below into your application
 var myapp = angular.module('MyApp',['toggleSwitch']);
 
